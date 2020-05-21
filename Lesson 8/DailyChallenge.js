@@ -1,7 +1,3 @@
-// Go through the work for the Array Extension questions from Week 1 Day 4 and convert all the callback functions to arrow functions. Do the same for all the String Extension Method Questions from Week 1 Day 5. My links to these exercises are below:
-
-// https://github.com/LukeParkerTAFE/ServiceNSWLesson4/blob/master/ArrayExtensionQuestions.js
-
 let pets = [
     {
         name: "Rex",
@@ -75,9 +71,7 @@ function filterCallback(pet) {
 let filteredPets = pets
     .filter(pet => pet.age < 5)
     .filter(pet => pet.name[0] == "S" || pet.ownerName[0] == "S");
-console.log(filteredPets);
-
-// https://github.com/LukeParkerTAFE/ServiceNSWLesson5/blob/master/Exercises.js
+// console.log(filteredPets);
 
 let sentence = "The quick brown fox jumps over the lazy dog.";
 
